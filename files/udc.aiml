@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+  <category>
+      <pattern>HI</pattern>
+      <template>May I ask you some questions?</template>
+  </category>
+ 
+ <category>
+     <pattern>yes</pattern>
+     <that>MAY I ASK YOU SOME QUESTIONS</that>
+     <template>Okay, do you enjoy working with hardware and software or find the idea of maintaining an entire network interesting?</template>
+ </category>
+ 
+ <category>
+     <pattern>no</pattern>
+     <that>MAY I ASK YOU SOME QUESTIONS</that>
+     <template>Okay, goodbye then..</template>
+ </category>
+ 
+  <category>
+      <pattern>yes</pattern>
+      <that>OKAY, DO YOU ENJOY WORKING WITH HARDWARE AND SOFTWARE OR FIND THE IDEA OF MAINTAINING AN ENTIRE NETWORK INTERESTING</that>
+      <template>I recommend you research roles in Network Engineering, it's all about designing, implementing, and maintaining network systems in terms or hardware and software. Thank you for using this service.</template>
+  </category>
+  
+  <category>
+      <pattern>no</pattern>
+      <that>OKAY, DO YOU ENJOY WORKING WITH HARDWARE AND SOFTWARE OR FIND THE IDEA OF MAINTAINING AN ENTIRE NETWORK INTERESTING</that>
+      <template>Okay, would you enjoy working with data and applying statistics to reveal information?</template>
+  </category>
+  
+  <category>
+      <pattern>yes</pattern>
+      <that>OKAY, WOULD YOU ENJOY WORKING WITH DATA AND APPLYING STATISTICS TO REVEAL INFORMATION</that>
+      <template>I recommend you research roles in Data Science, these roles involve organizing and processing data in order to report meaningful insights. Thank you for using this service.</template>
+  </category>
+  
+  <category>
+      <pattern>no</pattern>
+      <that>OKAY, WOULD YOU ENJOY WORKING WITH DATA AND APPLYING STATISTICS TO REVEAL INFORMATION</that>
+      <template>Okay, do you enjoy using websites or find interest in making a website look nice?</template>
+  </category>
+  
+  <category>
+      <pattern>yes</pattern>
+      <that>OKAY, DO YOU ENJOY USING WEBSITES OR FIND INTEREST IN MAKING A WEBSITE LOOK NICE</that>
+      <template>I recommend you research different roles in Web Development, these roles involve designing and maintaining aesthetic and functional websites. Thank you for using this service.</template>
+  </category>
+  
+  <category>
+      <pattern>no</pattern>
+      <that>OKAY, DO YOU ENJOY USING WEBSITES OR FIND INTEREST IN MAKING A WEBSITE LOOK NICE</that>
+      <template>Okay, are you interested in combatting cyber threats or ethical hacking?</template>
+  </category>
+  
+  <category>
+      <pattern>yes</pattern>
+      <that>OKAY, ARE YOU INTERESTED IN COMBATTING CYBER THREATS OR ETHICAL HACKING</that>
+      <template>I recommend you research Cyber Security roles, these roles involve testing the safety of software solutions and creating safety protocols.</template>
+  </category>
+  
+  <category>
+      <pattern>no</pattern>
+      <that>OKAY, ARE YOU INTERESTED IN COMBATTING CYBER THREATS OR ETHICAL HACKING</that>
+      <template>Okay, do you enjoy designing things, working with code, and find applications interesting?</template>
+  </category>
+  
+  <category>
+      <pattern>yes</pattern>
+      <that>OKAY, DO YOU ENJOY DESIGNING THINGS, WORKING WITH CODE, AND FIND APPLICATIONS INTERESTING</that>
+      <template>I recommend you research roles in Software Engineering, these roles involve designing, building, and maintaining applications for many different purposes. Thank you for using this service.</template>
+  </category>
+  
+  <category>
+      <pattern>no</pattern>
+      <that>OKAY, DO YOU ENJOY DESIGNING THINGS, WORKING WITH CODE, AND FIND APPLICATIONS INTERESTING</that>
+      <template>Okay, I recommend you consider another career field than Computer Science. Thank you for using this service.</template>
+  </category>
+  
+  
+  
+</aiml>
